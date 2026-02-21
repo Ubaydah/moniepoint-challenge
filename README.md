@@ -70,7 +70,7 @@ psql -U postgres -c "CREATE DATABASE moniepoint;"
 ### 3. Place CSV data
 
 ```
-moniepoint-hackathon/
+moniepoint-challenge/
 └── data/
     ├── activities_20240101.csv
     ├── activities_20240102.csv
