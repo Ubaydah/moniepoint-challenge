@@ -48,9 +48,9 @@ A REST API built with **FastAPI** + **SQLAlchemy 2.x** + **PostgreSQL** that ing
 ```bash
 git clone <your-repo-url>
 cd moniepoint-challenge
-python -m venv env
+python3 -m venv env
 source env/bin/activate        # Windows: env\Scripts\activate
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ### 2. Configure the database
@@ -68,8 +68,6 @@ psql -U postgres -c "CREATE DATABASE moniepoint;"
 ```
 
 ### 3. Place CSV data
-
-Download the candidate starter pack and extract to `./data/`:
 
 ```
 moniepoint-hackathon/
