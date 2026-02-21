@@ -1,6 +1,6 @@
 # Moniepoint Code Challenge — Analytics Merchant API
 
-> **Candidate:** Ubaydah Abdulwasiu
+**Candidate:** Ubaydah Abdulwasiu
 
 ## Project Summary
 
