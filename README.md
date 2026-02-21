@@ -47,7 +47,7 @@ A REST API built with **FastAPI** + **SQLAlchemy 2.x** + **PostgreSQL** that ing
 
 ```bash
 git clone <your-repo-url>
-cd moniepoint-hackathon
+cd moniepoint-challenge
 python -m venv env
 source env/bin/activate        # Windows: env\Scripts\activate
 pip install -r requirements.txt
@@ -61,20 +61,10 @@ Copy `.env` and fill in your PostgreSQL credentials:
 cp .env .env.local   # optional
 ```
 
-`.env` (already included):
-
-```
-DATABASE_NAME=moni
-DATABASE_USER=ubaydah
-DATABASE_PASSWORD=password
-DATABASE_HOST=localhost
-DATABASE_PORT=5432
-```
-
 Create the database if it doesn't exist:
 
 ```bash
-psql -U postgres -c "CREATE DATABASE moni;"
+psql -U postgres -c "CREATE DATABASE moniepoint;"
 ```
 
 ### 3. Place CSV data
